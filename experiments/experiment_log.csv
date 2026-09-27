@@ -1,0 +1,5 @@
+experiment_id,timestamp,blocking_method,candidate_recall,feature_version,model_type,threshold,local_macro_f05,public_leaderboard_score,notes
+exp_01_baseline,2026-09-26T12:43:34.625082,multi_channel_with_adaptive_widening,0.9654,v1_pairwise_and_group_relative_34feat,lightgbm,0.9000,0.9833,,"Train sample: 400, Val F0.5: 0.9833"
+exp_01_baseline,2026-09-26T12:45:08.254926,multi_channel_with_adaptive_widening,0.9654,v1_pairwise_and_group_relative_34feat,lightgbm,0.4000,0.9815,,"Train sample: 400, Val F0.5: 0.9815"
+val_verification,2026-09-27T13:30:46.606703,multi_channel_with_adaptive_widening,0.9502,v1_pairwise_and_group_relative_34feat,lightgbm,0.6000,0.9668,,"Train sample: 2000, Val F0.5: 0.9668"
+kfold_eval,2026-09-27T13:32:41.606060,multi_channel_with_adaptive_widening,0.9299,v1_pairwise_and_group_relative_34feat,lightgbm,0.6800,0.9503,,"Train sample: 5000, Val F0.5: 0.9503"

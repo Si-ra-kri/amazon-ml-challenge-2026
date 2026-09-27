@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Large Datasets
+dataset/
+dataset_package.zip
+*.tsv.gz
+*.csv.gz
+
+# Raw prediction output TSVs
+output/
+
+# Submission archives (hosted in GitHub Releases)
+submission_final.zip
+
+# System & OS Files
+Thumbs.db
+Desktop.ini
+.DS_Store
